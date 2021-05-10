@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PodcastListActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/rv__"
+        android:layout_margin="@dimen/dp_12"
+        android:layout_height="40dp">
+        <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+            android:layout_width="wrap_content"
+            android:text="Episodes"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_black"
+            android:textSize="18dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:paddingStart="@dimen/dp_12"
+            android:layout_alignParentEnd="true"
+            android:paddingEnd="@dimen/dp_12"
+            android:id="@+id/ll_play_all"
+            android:gravity="center"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_border"
+            android:backgroundTint="@color/colorPrimary"
+            android:layout_height="36dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:src="@drawable/ic_baseline_play_arrow_24"
+                android:layout_height="wrap_content"/>
+            <com.kenzahn.zahn.widget.TypeFaceTextView
+                android:text="Play All"
+                android:textSize="14dp"
+                android:layout_marginStart="6dp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+        android:layout_width="match_parent"
+        android:text="No Podcast Found "
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:id="@+id/tv_not_found"
+        android:visibility="gone"
+        android:textColor="@color/color_black"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/rv__"
+        android:id="@+id/rv_pd_list"
+        android:layout_height="match_parent">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

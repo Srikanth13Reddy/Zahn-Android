@@ -1,0 +1,55 @@
+{
+  "userpreferrence": [
+    {
+      "FlashCardSetID": "176",
+      "decksortOrder": "2",
+      "totalCardCount": 56,
+      "CompletedCards": 0,
+      "Status": "Unread",
+      "CardOrder": [
+        {
+		  "FlashCardSetID": "176",
+          "FlashCardID": "14450",
+		  "isKnownContent": true,
+          "SortOrder": 10
+        },
+        {
+		  "FlashCardSetID": "176",
+          "FlashCardID": "14448",
+		  "isKnownContent": false,
+          "SortOrder": 12
+        },
+        {
+		 "FlashCardSetID": "176",
+          "FlashCardID": "14443",
+		  "isKnownContent": false,
+          "SortOrder": 45
+        }
+      ]
+    },
+    {
+      "FlashCardSetID": "177",
+      "decksortOrder": "1",
+      "totalCardCount": 44,
+      "CompletedCards": 23,
+      "Status": "In-Progress",
+      "CardOrder": [
+        {
+          "FlashCardID": "14450",
+          "SortOrder": 10, 
+		  "isKnownContent": false
+        },
+        {
+          "FlashCardID": "14448",
+          "SortOrder": 12, 
+		  "isKnownContent": false
+        },
+        {
+          "FlashCardID": "14443",
+          "SortOrder": 45, 
+		  "isKnownContent": false
+        }
+      ]
+    }
+  ]
+}

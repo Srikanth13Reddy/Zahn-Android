@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E70B7</color>
+    <color name="colorPrimaryDark">#0e629f</color>
+    <color name="colorAccent">#0e629f
+    </color>
+    <color name="tabcolor">#7eb4dc</color>
+    <color name="white">#ffffff</color>
+    <color name="white_transparent">#b8ffffff</color>
+    <color name="text_gray">#515151</color>
+    <color name="color_valuzonebundle_bg">#F7F8F8</color>
+    <color name="color_black">#000000</color>
+    <color name="color_white">#FFF</color>
+    <color name="grey_ivory5">#FFF</color>
+    <color name="green">#14bdcd</color>
+    <color name="txtnormal">#a982df</color>
+    <color name="offer">#CA78FE</color>
+    <color name="navGray">#F1F2F3</color>
+    <color name="navRGray">#F9FAFB</color>
+    <color name="txt_color">#757576</color>
+    <color name="txt_light_color">#cccccc</color>
+    <color name="navSelect">#6712b6</color>
+    <color name="completed">#5AAD00</color>
+    <color name="prgoress">#FC9A5C</color>
+    <color name="linecolor">#DBDCDD</color>
+    <color name="linecolor_ligit">#f2f2f2</color>
+    <color name="textcolor">#b7b7b7</color>
+    <color name="payment_success_bg">#E9F5EB</color>
+    <color name="tint_color">#F1F2F3</color>
+    <color name="red_color">#FE0400</color>
+
+    <color name="bg">#cbeafa</color>
+    <color name="buttoncolor">#0E70B7</color>
+    <color name="headerbg">#0e70b8</color>
+    <color name="nav_back">#acceec</color>
+    <color name="gray">#d8d8d8</color>
+    <color name="background_color">#eeeeee</color>
+</resources>

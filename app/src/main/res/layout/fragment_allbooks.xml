@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+ <!--   <include
+        android:id="@+id/emptyLayout"
+        layout="@layout/empty_layout"
+        android:visibility="gone"></include>
+
+    -->
+    <com.kenzahn.zahn.widget.TypeFaceTextView
+        android:id="@+id/emptyLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:gravity="center"
+        android:textColor="@color/color_black"
+        android:textSize="@dimen/textsize_18"
+        android:text="No Cards Available"
+        android:src="@mipmap/nodatafound" />
+    <FrameLayout
+        android:id="@+id/mainFrameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:visibility="visible" />
+        </LinearLayout>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatshuffle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:visibility="gone"
+            android:layout_margin="10dp"
+            app:srcCompat="@mipmap/icon_homeshuffle" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/progressbar_layout"
+        android:visibility="gone" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

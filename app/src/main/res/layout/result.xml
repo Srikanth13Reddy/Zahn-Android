@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/dialog_bg"
+    android:layout_width="match_parent"
+    android:layout_height="500dp">
+    <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+        android:layout_width="match_parent"
+        android:text="Result"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="24dp"
+        android:textColor="@color/colorPrimary"
+        android:textSize="20dp"
+        android:id="@+id/tv_h"
+        android:layout_height="wrap_content" />
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:paddingStart="12sp"
+            android:paddingEnd="12sp"
+            android:layout_marginTop="@dimen/dp_12"
+            android:layout_height="300dp">
+               <TableRow android:layout_height="wrap_content"
+                   android:layout_width="wrap_content">
+                   <com.kenzahn.zahn.widget.TypeFaceTextView
+                       android:layout_height="wrap_content"
+                       android:layout_weight="1.3"
+                       android:textSize="16sp"
+                       android:textColor="@color/color_black"
+                       android:text="Total Questions"
+                       android:width="0dp"/>
+                   <com.kenzahn.zahn.widget.TypeFaceTextView
+                       android:layout_height="wrap_content"
+                       android:textSize="16sp"
+                       android:layout_weight="0.1"
+                       android:textColor="@color/color_black"
+                       android:text=":"
+                       android:width="0dp"/>
+                   <com.kenzahn.zahn.widget.TypeFaceTextView
+                       android:layout_height="wrap_content"
+                       android:layout_weight="0.6"
+                       android:gravity="center"
+                       android:textColor="@color/color_black"
+                       android:text="0"
+                       android:textSize="16sp"
+                       android:id="@+id/tv_total"
+                       android:width="0dp"/>
+               </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_width="wrap_content">
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_weight="1.3"
+                    android:textColor="@color/color_black"
+                    android:text="Answered Questions"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_black"
+                    android:text=":"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:textSize="16sp"
+                    android:id="@+id/tv_answered"
+                    android:textColor="@color/color_black"
+                    android:text="0"
+                    android:width="0dp"/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_width="wrap_content">
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_black"
+                    android:text="Correct Answers "
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textColor="@color/color_black"
+                    android:textSize="16sp"
+                    android:text=":"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/tv_correct"
+                    android:textColor="@color/color_black"
+                    android:text="0"
+                    android:width="0dp"/>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_width="wrap_content">
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_black"
+                    android:text="Wrong Answers "
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textColor="@color/color_black"
+                    android:textSize="16sp"
+                    android:text=":"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/tv_wrong"
+                    android:textColor="@color/color_black"
+                    android:text="0"
+                    android:width="0dp"/>
+            </TableRow>
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_12"
+                android:layout_width="wrap_content">
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.3"
+                    android:textColor="@color/color_black"
+                    android:textSize="16sp"
+                    android:text="Result"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:textSize="16sp"
+                    android:textColor="@color/color_black"
+                    android:text=":"
+                    android:width="0dp"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.6"
+                    android:textSize="16sp"
+                    android:gravity="center"
+                    android:id="@+id/tv_result"
+                    android:textColor="@color/color_black"
+                    android:text="0"
+                    android:width="0dp"/>
+            </TableRow>
+        </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="14dp"
+        android:id="@+id/ll_acpt"
+        android:gravity="center|end"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_height="70dp">
+        <Button
+            android:id="@+id/btn_acpt"
+            android:background="@drawable/round_border"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="Ok" />
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+
+
+
+
+
+

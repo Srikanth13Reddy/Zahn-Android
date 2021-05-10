@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:theme="@style/ThemeOverlay.AppCompat.Dark" android:orientation="vertical" android:background="@color/white" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/llHome" android:background="@color/nav_back" android:layout_width="match_parent" android:layout_height="270dp">
+        <ImageView android:layout_width="150dp" android:layout_height="100dp" android:src="@drawable/logo_"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20dp" android:textColor="@color/color_black" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Zahn Student Center" android:fontFamily="@font/poppins_bold"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="20dp" android:textColor="@color/color_black" android:id="@+id/tvUserName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Welcome Elliot Cotto" android:fontFamily="@font/poppins_bold"/>
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/textsize_18" android:textColor="@color/color_black" android:id="@+id/tvUserEmail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="Status: Live Preview" android:layout_below="@+id/tvUserName" android:fontFamily="@font/poppins_semibold"/>
+    </LinearLayout>
+    <View android:background="@color/linecolor" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_alignParentBottom="true"/>
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_home" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@mipmap/home" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Home" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_purchase" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/shopping_cart" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Purchase" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:id="@+id/nav_fv" android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_online" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@mipmap/flashcards" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Flashcards Online " style="@style/Nav_TextView"/>
+                <RelativeLayout android:id="@+id/rl_img" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/nav_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_keyboard_arrow_down_black_24dp" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <com.kenzahn.zahn.utils.MyListView android:id="@+id/online_lv" android:visibility="gone" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:divider="@color/color_black" android:dividerHeight="0.5dp"/>
+            <View android:id="@+id/nav_vv" android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_qa" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/qa" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Q&amp;A Quick Prep" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:id="@+id/nav_v" android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_pod" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/mic" android:tint="@color/color_black" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Podcast" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:id="@+id/nav_pv" android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_glossary" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/glosary" android:tint="@color/color_black" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Glossary" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_acronyms" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@drawable/asyncronus" android:tint="@color/color_black" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Acronyms" style="@style/Nav_TextView"/>
+            </LinearLayout>
+            <View android:background="@color/color_black" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginTop="12dp" android:layout_marginBottom="12dp"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/ll_logout" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <androidx.appcompat.widget.AppCompatImageView android:src="@mipmap/logout" style="@style/Nav_ImageView"/>
+                <androidx.appcompat.widget.AppCompatTextView android:text="Logout" style="@style/Nav_TextView"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

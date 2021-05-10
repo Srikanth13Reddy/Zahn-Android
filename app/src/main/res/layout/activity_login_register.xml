@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:focusableInTouchMode="true">
+
+    <ViewFlipper
+        android:id="@+id/mViewFlipper"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include layout="@layout/login_screen" />
+
+        <include layout="@layout/register_screen" />
+    </ViewFlipper>
+
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/progressbar_layout"
+        android:visibility="gone" />
+
+</FrameLayout>

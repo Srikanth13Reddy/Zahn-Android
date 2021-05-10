@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PodcastActivity">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_pod"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/progressbar_layout"
+        android:visibility="gone" />
+    <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+        android:layout_width="match_parent"
+        android:text="No Podcast Found "
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:id="@+id/tv_not_found"
+        android:visibility="gone"
+        android:textColor="@color/color_black"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

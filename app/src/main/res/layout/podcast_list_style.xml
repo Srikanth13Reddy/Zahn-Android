@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/dp_12"
+    android:layout_marginBottom="@dimen/dp_12"
+    android:padding="@dimen/dp_12"
+    android:layout_marginEnd="@dimen/dp_12">
+    <ImageView
+        android:layout_width="@dimen/list_height_60"
+        android:src="@drawable/music"
+        android:id="@+id/mic"
+        android:layout_centerVertical="true"
+        android:layout_height="@dimen/list_height_60"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/mic"
+        android:layout_toLeftOf="@+id/play"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/dp_12"
+        android:layout_marginEnd="@dimen/dp_12"
+        android:layout_height="wrap_content">
+        <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+            android:layout_width="match_parent"
+            android:id="@+id/tv_pd_name"
+            android:text="The music of design and AI"
+            android:textColor="@color/color_black"
+            android:textSize="16dp"
+            android:layout_height="wrap_content"/>
+        <com.kenzahn.zahn.widget.TypeFaceTextView
+            android:layout_width="match_parent"
+            android:text="january 02"
+            android:id="@+id/tv_time"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/textsize_30"
+        android:id="@+id/play"
+        android:src="@drawable/play"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_height="@dimen/textsize_30"/>
+
+</RelativeLayout>

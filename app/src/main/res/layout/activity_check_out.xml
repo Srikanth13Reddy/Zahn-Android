@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<androidx.core.widget.NestedScrollView
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginBottom="50dp"
+    android:background="@color/background_color"
+    tools:context=".CheckOutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+    <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:gravity="center|left"
+        android:id="@+id/tv_cart_note"
+        android:textColor="@color/color_black"
+        android:text="Billing Address"
+        android:paddingStart="5dp"
+        android:textSize="@dimen/textsize_18"
+        android:paddingEnd="5dp"
+        android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="First Name"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                    
+                    android:textStyle="bold"
+                    android:id="@+id/et_fstname"
+                    android:hint="First Name"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Last Name"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_lastname"
+                    android:hint="Last Name"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Address"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_address1"
+                    android:hint="Address"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Address2"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_address2"
+                    android:hint="Address2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="City"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_city"
+                    android:hint="City"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="State"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_state"
+                    android:hint="State"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Zip Code"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_zipcode"
+                    android:hint="Zip Code"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Phone"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_phone"
+                    android:hint="Phone"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Email"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_email"
+                    android:hint="Email"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+    <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:gravity="center|left"
+        android:id="@+id/tv_cart_note_"
+        android:textColor="@color/color_black"
+        android:text="Shipping Address"
+        android:paddingStart="5dp"
+        android:textSize="@dimen/textsize_18"
+        android:paddingEnd="5dp"
+        android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="First Name"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                    
+                    android:textStyle="bold"
+                    android:id="@+id/et_fstname_"
+                    android:hint="First Name"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Last Name"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_lastname_"
+                    android:hint="Last Name"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Address"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_address1_"
+                    android:hint="Address"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Address2"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_address2_"
+                    android:hint="Address2"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="City"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_city_"
+                    android:hint="City"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="State"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_state_"
+                    android:hint="State"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Zip Code"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_zipcode_"
+                    android:hint="Zip Code"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Phone"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_phone_"
+                    android:hint="Phone"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:background="@drawable/boreder"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center|top|left"
+                android:layout_height="wrap_content">
+
+                <com.kenzahn.zahn.widget.TypeFaceTextView
+                    android:layout_width="wrap_content"
+                    android:text="Email"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/color_black"
+                    android:layout_height="wrap_content"/>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:paddingStart="10dp"
+                    android:background="@null"
+                   
+                    android:textStyle="bold"
+                    android:id="@+id/et_email_"
+                    android:hint="Email"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+
+</androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+         android:text="Next"
+        android:textAllCaps="false"
+        android:onClick="loadOrderPage"
+        android:textColor="@color/white"
+        android:background="@color/colorPrimary"
+        android:layout_height="50dp"/>
+</RelativeLayout>

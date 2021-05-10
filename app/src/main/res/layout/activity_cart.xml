@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/background_color"
+    android:layout_height="match_parent"
+    tools:context=".CartActivity">
+
+
+    <com.kenzahn.zahn.widget.TypeFaceTextView
+        android:layout_width="match_parent"
+        android:gravity="center|left"
+        android:id="@+id/tv_empty_note"
+        android:textColor="@color/colorPrimary"
+        android:text="Your Cart Is Empty"
+        android:layout_centerVertical="true"
+        android:textAlignment="center"
+        android:paddingStart="5dp"
+        android:visibility="gone"
+        android:paddingEnd="5dp"
+        android:layout_height="45dp"/>
+
+
+
+    <com.kenzahn.zahn.widget.TypeFaceTextView
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:gravity="center|left"
+        android:id="@+id/tv_cart_note"
+        android:textColor="@color/color_black"
+        android:text="Your Shopping Cart Items"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_height="45dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_below="@id/tv_cart_note"
+        android:id="@+id/rv_cart"
+        android:layout_above="@id/ll_btns"
+        android:layout_height="match_parent"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="2"
+        android:id="@+id/ll_btns"
+        android:layout_alignParentBottom="true"
+        android:layout_height="50dp">
+
+        <Button
+            android:layout_width="0dp"
+            android:background="@color/white"
+            android:textColor="@color/color_black"
+            android:text="Continue Shopping"
+            android:onClick="continueShopping"
+            android:textAllCaps="false"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:background="@color/colorPrimary"
+            android:text="Checkout"
+            android:textAllCaps="false"
+            android:onClick="checkOut"
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <include
+        android:id="@+id/progressLayout"
+        layout="@layout/progressbar_layout"
+        android:visibility="gone" />
+
+</RelativeLayout>

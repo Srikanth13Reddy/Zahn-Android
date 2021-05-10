@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/rl1" android:background="@color/colorPrimary" android:layout_width="match_parent" android:layout_height="190dp">
+            <ImageView android:id="@+id/iv_menu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/dp_12" android:src="@drawable/ic_menu_black_24dp"/>
+            <ImageView android:id="@+id/home_logo" android:layout_width="150dp" android:layout_height="50dp" android:layout_marginTop="40dp" android:src="@drawable/logo_" android:layout_centerHorizontal="true"/>
+            <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="@dimen/textsize_18" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_home_title" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dp_12" android:text="Zahn Student Center" android:layout_below="@+id/home_logo"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/tv_home_title">
+                <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="@dimen/textsize_18" android:textColor="@color/white" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Welcome" android:layout_marginStart="@dimen/dp_12"/>
+                <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="20dp" android:textColor="@color/white" android:gravity="center" android:id="@+id/tv_home_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:layout_marginStart="14dp" android:layout_marginEnd="14dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/rl1">
+            <LinearLayout android:orientation="vertical" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_alignParentBottom="true">
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ll_both" android:padding="5dp" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="10dp" android:weightSum="2">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/card_flash" android:background="@drawable/home_round_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="46dp" android:src="@drawable/playingcards"/>
+                        <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Flashcards Online"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/card_qa" android:background="@drawable/home_round_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="46dp" android:src="@drawable/question"/>
+                        <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Q&amp;A Quick Prep"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:padding="5dp" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="30dp" android:weightSum="2">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/acronys" android:background="@drawable/home_round_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="46dp" android:src="@drawable/asyncronus"/>
+                        <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Acronyms"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/glossary" android:background="@drawable/home_round_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="46dp" android:src="@drawable/glosary" android:tint="@color/white"/>
+                        <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Glossary"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:padding="5dp" android:layout_width="match_parent" android:layout_height="150dp" android:layout_marginBottom="30dp" android:weightSum="2">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/podcast" android:background="@drawable/home_round_border" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1">
+                        <androidx.appcompat.widget.AppCompatImageView android:layout_width="80dp" android:layout_height="46dp" android:src="@drawable/mic"/>
+                        <com.kenzahn.zahn.widget.TypeFaceTextViewBold android:textSize="16dp" android:textColor="@color/white" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="Podcast"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_weight="1"/>
+                </LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </RelativeLayout>
+</FrameLayout>

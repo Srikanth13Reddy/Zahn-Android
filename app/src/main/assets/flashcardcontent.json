@@ -1,0 +1,10 @@
+{
+   "FlashContent":[
+      {
+         "FlashCardID":14146,
+         "FlashCardFront":"<div align=\"center\"><span class=\"Header1\">Principles<\/span><br \/><span class=\"Header1\">Financial Planner's Responsibility <\/span><\/div>",
+         "FlashCardBack":"<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\">\r\n<tbody>\r\n<tr>\r\n<td><strong class=\"MediumText\">I<\/strong><span class=\"MediumText\">ntegrity (#1)<\/span><\/td>\r\n<td><span class=\"MediumText\">International<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">O<\/strong><span class=\"MediumText\">bjectivity<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#2)<\/span><\/td>\r\n<td><span class=\"MediumText\">Olympic<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">ompetence (#3) <\/span>\r\n<hr \/>\r\n<\/td>\r\n<td><span class=\"MediumText\">Committee (IOC is <\/span><strong class=\"MediumText\">competent<\/strong>) \r\n<hr \/>\r\n<\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">F<\/strong><span class=\"MediumText\">airness (#4)<\/span><\/td>\r\n<td><span class=\"MediumText\">Fire<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">onfidentiality (#5)<\/span><\/td>\r\n<td><span class=\"MediumText\">Company<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">P<\/strong><span class=\"MediumText\">rofessionalism (#6)<\/span><\/td>\r\n<td><span class=\"MediumText\">Police<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">D<\/strong><span class=\"MediumText\">iligence<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#7)<\/span><\/td>\r\n<td valign=\"top\"><span class=\"MediumText\">Department<br \/><span class=\"MediumText\">(Fire and Police require <\/span><strong class=\"MediumText\">confidentiality)<\/strong><\/span><\/td><\/tr><\/tbody><\/table>",
+         "SortOrder":3
+      }
+   ]
+}

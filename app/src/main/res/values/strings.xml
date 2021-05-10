@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Zahn</string>
+    <string name="font_bold">Poppins-Bold.ttf</string>
+    <string name="font_regular">Poppins-Regular.ttf</string>
+    <string name="font_semibold">Poppins-SemiBold.ttf</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer close</string>
+    <string name="collapsed">collapsed: %s</string>
+    <string name="expanded">expanded: %s</string>
+    <string name="title_activity_book_flip_view_three">BookFlipViewThree</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="err_msg_password">Please enter password</string>
+    <string name="username">Please enter user id</string>
+    <string name="card_list_sucessfully_shuffled">Card list successfully shuffled.</string>
+    <string name="card_shuffle">Card Shuffle</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="done">DONE</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+</resources>

@@ -1,0 +1,60 @@
+{
+  "results": {
+    "FlashContent": [
+      {
+        "FlashCardID": 14146,
+        "FlashCardFront": "<div align=\"center\"><span class=\"Header1\">Principles<\/span><br \/><span class=\"Header1\">Financial Planner's Responsibility <\/span><\/div>",
+        "FlashCardBack": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\">\r\n<tbody>\r\n<tr>\r\n<td><strong class=\"MediumText\">I<\/strong><span class=\"MediumText\">ntegrity (#1)<\/span><\/td>\r\n<td><span class=\"MediumText\">International<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">O<\/strong><span class=\"MediumText\">bjectivity<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#2)<\/span><\/td>\r\n<td><span class=\"MediumText\">Olympic<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">ompetence (#3) <\/span>\r\n<hr \/>\r\n<\/td>\r\n<td><span class=\"MediumText\">Committee (IOC is <\/span><strong class=\"MediumText\">competent<\/strong>) \r\n<hr \/>\r\n<\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">F<\/strong><span class=\"MediumText\">airness (#4)<\/span><\/td>\r\n<td><span class=\"MediumText\">Fire<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">onfidentiality (#5)<\/span><\/td>\r\n<td><span class=\"MediumText\">Company<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">P<\/strong><span class=\"MediumText\">rofessionalism (#6)<\/span><\/td>\r\n<td><span class=\"MediumText\">Police<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">D<\/strong><span class=\"MediumText\">iligence<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#7)<\/span><\/td>\r\n<td valign=\"top\"><span class=\"MediumText\">Department<br \/><span class=\"MediumText\">(Fire and Police require <\/span><strong class=\"MediumText\">confidentiality)<\/strong><\/span><\/td><\/tr><\/tbody><\/table>",
+        "SortOrder": 3
+      },
+      {
+        "FlashCardID": 14147,
+        "FlashCardFront": "<div align=\"center\"><span class=\"Header1\">Use of Initials<\/span><br \/>\r\n<span class=\"Header1\">Certified Financial Planner<\/span><\/div>\r\n<div style=\"text-align: center; \"><span class=\"MediumText\">(How to use CFP Marks)&nbsp;<\/span><\/div>",
+        "FlashCardBack": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\">\r\n<tbody>\r\n<tr>\r\n<td><strong class=\"MediumText\">I<\/strong><span class=\"MediumText\">ntegrity (#1)<\/span><\/td>\r\n<td><span class=\"MediumText\">International<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">O<\/strong><span class=\"MediumText\">bjectivity<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#2)<\/span><\/td>\r\n<td><span class=\"MediumText\">Olympic<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">ompetence (#3) <\/span>\r\n<hr \/>\r\n<\/td>\r\n<td><span class=\"MediumText\">Committee (IOC is <\/span><strong class=\"MediumText\">competent<\/strong>) \r\n<hr \/>\r\n<\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">F<\/strong><span class=\"MediumText\">airness (#4)<\/span><\/td>\r\n<td><span class=\"MediumText\">Fire<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">C<\/strong><span class=\"MediumText\">onfidentiality (#5)<\/span><\/td>\r\n<td><span class=\"MediumText\">Company<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">P<\/strong><span class=\"MediumText\">rofessionalism (#6)<\/span><\/td>\r\n<td><span class=\"MediumText\">Police<\/span><\/td><\/tr>\r\n<tr>\r\n<td><strong class=\"MediumText\">D<\/strong><span class=\"MediumText\">iligence<\/span><strong class=\"MediumText\"> <\/strong><span class=\"MediumText\">(#7)<\/span><\/td>\r\n<td valign=\"top\"><span class=\"MediumText\">Department<br \/><span class=\"MediumText\">(Fire and Police require <\/span><strong class=\"MediumText\">confidentiality)<\/strong><\/span><\/td><\/tr><\/tbody><\/table>",
+        "SortOrder": 4
+      },
+      {
+        "FlashCardID": 14148,
+        "FlashCardFront": "<p align=\"center\"><span class=\"Header1\">Debt Management Ratios<\/span><br \/>\r\n<span class=\"Header2\">Housing Expenses (PITI)<\/span><br \/>\r\n<br \/>\r\n<\/p>",
+        "FlashCardBack": "<div style=\"text-align: center;\"><u class=\"LargeText\">&lt;<\/u><span class=\"LargeText\">&nbsp;28% of gross income <\/span><strong class=\"LargeText\">PITI<\/strong><\/div>",
+        "SortOrder": 6
+      },
+      {
+        "FlashCardID": 14149,
+        "FlashCardFront": "<p align=\"center\"><span class=\"Header1\">Major Federal Securities Acts<\/span><\/p>",
+        "FlashCardBack": "<div><strong class=\"SmallText\">Securites Act of 1933 <\/strong><span class=\"MediumText\">-&nbsp; <\/span><span class=\"SmallText\">Requires that <\/span><strong class=\"SmallText\">new<\/strong><span class=\"SmallText\"> issues purchasers be provided with a detailed prospectus before a purchase was completed.<\/span><br \/><br \/><strong class=\"SmallText\">Securites Act of 1934<\/strong><span class=\"SmallText\"> <\/span><span class=\"SmallText\">- Regulates the <\/span><strong class=\"SmallText\">secondary<\/strong><span class=\"SmallText\"> <\/span><span class=\"SmallText\">market (trading of <\/span><strong class=\"SmallText\">issued <\/strong><span class=\"SmallText\">securities).&nbsp; Act also created the SEC to enforce securities laws.<\/span><\/div>\r\n<p align=\"justify\"><strong class=\"SmallText\">Investment Company <\/strong><strong class=\"SmallText\">Act of 1940 <\/strong><span class=\"SmallText\">- Authorized the SEC to regulate unit investment trusts (UITs) and managed investment companies (closed-end and open-end funds) plus variable products.<\/span><\/p>\r\n<p align=\"justify\"><strong class=\"SmallText\">Securities Investors Protection <\/strong><strong class=\"SmallText\">Act of 1970 <\/strong><span class=\"SmallText\">- Established the SIPC to supervise securities firms that get into financial difficulties.&nbsp; The SIPC insures investors against losses arising from the <\/span><strong class=\"SmallText\">failure<\/strong><span class=\"SmallText\"> of a brokerage firm.<\/span><\/p>",
+        "SortOrder": 7
+      },
+      {
+        "FlashCardID": 14150,
+        "FlashCardFront": "<p align=\"center\"><span class=\"Header1\">Exceptions for<\/span><br \/><span class=\"Header1\">Filing as Investment Adviser<\/span><\/p>",
+        "FlashCardBack": "<ul><li><strong class=\"MediumText\">B<\/strong><span class=\"MediumText\">anks that are not also investment companies<\/span><\/li><li><strong class=\"MediumText\">L<\/strong><span class=\"MediumText\">awyers, <\/span><strong class=\"MediumText\">A<\/strong><span class=\"MediumText\">ccountants, <\/span><strong class=\"MediumText\">T<\/strong><span class=\"MediumText\">eachers - advice is incidental<\/span><\/li><li><span class=\"MediumText\">Broker\/dealers or registered reps whose performance is incidental and who&nbsp;receives no special compensation for advice<\/span><\/li><li><span class=\"MediumText\">Publishers of <\/span><em class=\"MediumText\">bona fide<\/em> <span class=\"MediumText\">newspaper or financial publication&nbsp;<\/span><\/li><li><span class=\"MediumText\">One&nbsp;who&nbsp;gives advice only relating to U.S. government securities<\/span><\/li><li><span class=\"MediumText\">Adviser\'s clients are in one state<\/span><\/li><li><span class=\"MediumText\">Adviser whose only clients are insurance companies<\/span><\/li><li><span class=\"MediumText\">The family office<\/span><\/li><\/ul>",
+        "SortOrder": 8
+      },
+      {
+        "FlashCardID": 14151,
+        "FlashCardFront": "<div align=\"center\"><span class=\"Header1\">Code of Ethics<br \/><br \/><\/span><\/div>\r\n<div align=\"center\"><span class=\"Header1\">Principle of Competence<\/span><\/div>",
+        "FlashCardBack": "<ul>\r\n     <li class=\"MediumText\">CFP<sup>&#174;<\/sup> must stay current with new rules and products&nbsp;<br \/>\r\n     <br \/>\r\n     <\/li>\r\n     <li class=\"MediumText\">Violated if 30 hours of continuing education is not completed every 2 years<\/li>\r\n<\/ul>",
+        "SortOrder": 9
+      },
+      {
+        "FlashCardID": 14152,
+        "FlashCardFront": "<p align=\"center\"><span class=\"Header1\">Code of Ethics<br \/><br \/>Principle of Fairness<\/span><\/p>",
+        "FlashCardBack": "<ul>\r\n     <li class=\"MediumText\">CFP<sup>&#174;<\/sup> must disclose material information to prospective and current clients.<br \/><br \/><\/li>\r\n     <li class=\"MediumText\">Violated when CFP<sup>&#174;<\/sup> receives <strong>undisclosed<\/strong><br \/>commissions and referral fees<\/li>\r\n<\/ul>",
+        "SortOrder": 10
+      },
+      {
+        "FlashCardID": 14153,
+        "FlashCardFront": "<p align=\"center\"><span class=\"Header1\">Financial Industry Regulatory Authority (FINRA)<\/span><br \/><br \/><span class=\"MediumText\">formerly National Association of Security Dealers (NASD)<\/span><br \/><br \/>&nbsp;<span class=\"Header1\">Registration Process<\/span><\/p>",
+        "FlashCardBack": "<span class=\"MediumText\">Anyone seeking to sell securites must register with the FINRA.<\/span> \r\n<ul><li><span class=\"MediumText\">Associates with a broker\/dealer<\/span> <\/li><\/ul>\r\n<ul><li><span class=\"MediumText\">Registers with&nbsp;FINRA through broker\/dealer on Form U-4&nbsp;<\/span> <\/li><\/ul>\r\n<ul><li><span class=\"MediumText\">Passes appropriate required exam&nbsp;<\/span> <\/li><\/ul>\r\n<ul><li><span class=\"MediumText\">Receives a CRD N<font>u<\/font>mber (Central Registration Depository System) <\/span><\/li><\/ul>",
+        "SortOrder": 11
+      },
+      {
+        "FlashCardID": 14156,
+        "FlashCardFront": "<div align=\"center\"><span class=\"Header1\">Steps in<\/span><br \/>\r\n<span class=\"Header1\">Financial Planning Process<\/span>\r\n<div>&nbsp;<\/div>\r\n<\/div>\r\n<div align=\"center\"><\/div>",
+        "FlashCardBack": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"5\" summary=\"\">\r\n     <tbody>\r\n         <tr>\r\n             <td valign=\"middle\"><strong class=\"MediumText\">1<\/strong> <\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Establish and defining client-planner relationship<\/span><\/td>\r\n         <\/tr>\r\n         <tr>\r\n             <td valign=\"middle\"><strong class=\"MediumText\">2<\/strong> <\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Gathering Information<\/span><\/td>\r\n         <\/tr>\r\n         <tr>\r\n             <td valign=\"middle\"><strong class=\"MediumText\">3<\/strong><\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Analyze\/evaluate client\'s current financial status<\/span><\/td>\r\n         <\/tr>\r\n         <tr>\r\n             <td valign=\"middle\"><strong class=\"MediumText\">4<\/strong><span class=\"MediumText\"> <\/span><\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Develop and communicate the recommendation(s)<\/span><\/td>\r\n         <\/tr>\r\n         \r\n         <tr>\r\n             <td valign=\"middle\"><font face=\"Verdana\"><span style=\"font-size: 14px;\"><strong>5<\/strong><\/span><\/font>&nbsp;<\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Implement recommendation(s)<\/span><\/td>\r\n         <\/tr>\r\n         <tr>\r\n             <td valign=\"middle\"><font face=\"Verdana\"><span style=\"font-size: 14px;\"><strong>6<\/strong><\/span><\/font><\/td>\r\n             <td valign=\"middle\"><span class=\"MediumText\">Monitor the recommendation(s) <\/span><\/td>\r\n         <\/tr>\r\n         \r\n     <\/tbody>\r\n<\/table>",
+        "SortOrder": 13
+      }
+    ]
+  }
+}

@@ -1,0 +1,111 @@
+package com.kenzahn.zahn.newadapters;
+
+
+import android.content.Context;
+import android.text.Spanned;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.CheckBox;
+import android.widget.TextView;
+
+import androidx.recyclerview.widget.RecyclerView;
+
+import com.kenzahn.zahn.model.CardContentRes2;
+import com.pixplicity.htmlcompat.HtmlCompat;
+import com.kenzahn.zahn.R;
+import com.kenzahn.zahn.database.DatabaseHandler;
+import com.kenzahn.zahn.interfaces.AdapterItemClickListener;
+import com.kenzahn.zahn.model.CardContentRes;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+/**
+ * Created by suresh on 4/2/2018.
+ */
+
+public class BookListDetailsToLearnAdapter2 extends RecyclerView.Adapter<BookListDetailsToLearnAdapter2.MyViewHolder> {
+    public DatabaseHandler databaseHandler;
+    private int lastPosition;
+    private ArrayList<CardContentRes2> booklist;
+    private final Context mContext;
+    private AdapterItemClickListener adapterItemClickListener;
+    public BookListDetailsToLearnAdapter2(ArrayList<CardContentRes2>  booklist, Context mContext, AdapterItemClickListener adapterItemClickListener) {
+        this.booklist = booklist;
+        this.mContext = mContext;
+        this.adapterItemClickListener = adapterItemClickListener;
+
+    }
+
+    @Override
+    public BookListDetailsToLearnAdapter2.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+        final View itemLayoutView = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_book_adapter, parent, false);
+        BookListDetailsToLearnAdapter2.MyViewHolder viewHolder = new BookListDetailsToLearnAdapter2.MyViewHolder(itemLayoutView);
+        return viewHolder;
+    }
+
+    @Override
+    public void onBindViewHolder(final BookListDetailsToLearnAdapter2.MyViewHolder holder, final int position) {
+        try{
+            this.databaseHandler = new DatabaseHandler(this.mContext);
+            holder.kolodaImage.setMaxLines(1);
+            Spanned fromHtml = HtmlCompat.fromHtml(mContext, booklist.get(position).getQuestion(), 0);
+            holder.kolodaImage.setText(""+fromHtml);
+            if(position==0){
+                holder.isCheck.setVisibility(View.GONE);
+            }else{
+                holder.isCheck.setVisibility(View.VISIBLE);
+            }
+            if(booklist.get(position).getKnownContent()){
+                holder.isCheck.setChecked(true);
+            }else{
+                holder.isCheck.setChecked(false);
+            }
+        }catch (Exception e){
+
+        }
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                adapterItemClickListener.onItemClick(Integer.parseInt(booklist.get(position).getSortOrder()),booklist.get(position).getExamID(),"",null);
+            }
+        });
+
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return booklist.size();
+    }
+
+    public void shuffle(ArrayList<CardContentRes2> mResponse1) {
+        Collections.shuffle(mResponse1);
+        for ( int i =0; i<mResponse1.size();i++){
+            String query = "UPDATE flashcardcontent3 " +
+                    " SET SortOrder ='" + i + "' WHERE ExamQuestionID = '" + mResponse1.get(i).getExamQuestionID() + "' ";
+            databaseHandler.updateQuery(query);
+        }
+        this.notifyDataSetChanged();
+
+    }
+
+    class MyViewHolder extends RecyclerView.ViewHolder {
+        TextView kolodaImage;
+        CheckBox isCheck;
+        MyViewHolder(View itemView) {
+            super(itemView);
+            kolodaImage = (TextView) itemView.findViewById(R.id.kolodaImage);
+            isCheck = (CheckBox) itemView.findViewById(R.id.isCheck);
+
+
+        }
+    }
+    @Override
+    public int getItemViewType(int position)
+    {
+        return position;
+    }
+}

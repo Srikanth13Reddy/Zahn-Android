@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/tv_h"
+        android:layout_height="60dp">
+        <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+            android:layout_width="match_parent"
+            android:text="More Information"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:paddingStart="@dimen/dp_12"
+            android:paddingEnd="@dimen/dp_12"
+            android:layout_centerVertical="true"
+            android:textColor="@color/color_black"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/iv_close"
+            android:layout_marginStart="24sp"
+            android:layout_marginEnd="24sp"
+            android:src="@drawable/ic_close_black_24dp"
+            android:layout_height="40dp"/>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/text_gray"
+        android:id="@+id/view_"
+        android:layout_below="@+id/tv_h"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/ll"
+        android:layout_marginTop="@dimen/dp_12"
+        android:layout_marginBottom="@dimen/dp_12"
+        android:layout_below="@id/view_"
+        android:layout_height="wrap_content">
+        <com.kenzahn.zahn.widget.TypeFaceTextViewBold
+            android:layout_width="match_parent"
+            android:text="More Information"
+            android:textStyle="bold"
+            android:id="@+id/qtitle"
+            android:gravity="center|left"
+            android:paddingStart="@dimen/dp_12"
+            android:paddingEnd="@dimen/dp_12"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="@dimen/dp_12"
+            android:textColor="@color/color_black"
+            android:textSize="18dp"
+            android:layout_height="wrap_content" />
+
+        <com.kenzahn.zahn.widget.TypeFaceTextView
+            android:layout_width="match_parent"
+            android:text="More Information"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:paddingStart="@dimen/dp_12"
+            android:id="@+id/qprice"
+            android:paddingEnd="@dimen/dp_12"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/color_black"
+            android:textSize="18dp"
+            android:maxLines="1"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/text_gray"
+        android:id="@+id/view__"
+        android:layout_below="@+id/ll"
+        android:layout_height="1dp"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/view__"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <com.kenzahn.zahn.widget.TypeFaceTextView
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/tv_qdess"
+                android:layout_marginTop="14dp"
+                android:textSize="18dp"
+                android:textColor="@color/color_black"
+                android:layout_height="wrap_content"/>
+
+            <com.kenzahn.zahn.widget.TypeFaceTextView
+                android:layout_width="match_parent"
+                android:lineSpacingExtra="2dp"
+                android:paddingStart="10dp"
+                android:paddingEnd="10dp"
+                android:id="@+id/tv_qdes"
+                android:layout_marginTop="14dp"
+                android:textSize="14dp"
+                android:textColor="@color/color_black"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+
+
+</RelativeLayout>
+
+
